@@ -1,0 +1,29 @@
+
+# Gradle
+.gradle/
+build/
+!/gradlew
+!/gradlew.bat
+!/gradle/wrapper/gradle-wrapper.jar
+!/gradle/wrapper/gradle-wrapper.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Packaging files
+*.jar
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Log
+*.log
+
+# Mac OS
+.DS_Store
+
+
