@@ -1,0 +1,29 @@
+.song {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-bottom: 15px; /* 카드 사이의 간격 */
+  background-color: #f9f9f9;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.album_image,
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* 이미지 비율을 유지하며 컨테이너에 맞춤 */
+  margin-right: 20px; /* 이미지와 정보 사이의 간격 */
+  background-color: rgb(185, 178, 178);
+}
+
+.card_info {
+  margin: 0;
+  margin-bottom: 10px; /* 이름과 이메일 사이의 간격 */
+}

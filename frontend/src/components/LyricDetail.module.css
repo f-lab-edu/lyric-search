@@ -1,0 +1,31 @@
+.lyricDetail {
+}
+
+.lyricInfoTop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.lyricInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.album_image,
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+  background-color: rgb(185, 178, 178);
+}
+
+.lyricContents {
+  margin-top: 100px;
+  color: rgb(228, 103, 0);
+  text-align: center;
+  font-size: 20px;
+}
